@@ -45,8 +45,37 @@
                     <a href="#" class="header-avatar">
                         <img src="images/Avatar.webp" alt="Profile User" class="avatar" loading="lazy" decoding="async">
                     </a>
+                    <button class="menu-toggle" id="menu-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon-menu-header">
+                        <path d="M4 5h16" />
+                        <path d="M4 12h16" />
+                        <path d="M4 19h16" />
+                    </svg>
+                </button>
                 </div>
             </header>
+            <div class="mobile-menu" id="mobile-menu">
+                <button class="mobile-menu__close" id="mobile-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon-menu-close">
+                        <path d="M18 6 6 18" />
+                        <path d="m6 6 12 12" />
+                    </svg>
+                </button>
+                <a href="#" class="menu-avatar">
+                    <img src="images/Avatar.webp" alt="Profile User" class="avatar" loading="lazy" decoding="async">
+                </a>
+                <nav class="mobile-nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Categories</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
             <div class="hero-content">
                 <p class="hero-subtitle">
                     WELCOME TO MY BLOG
@@ -165,7 +194,7 @@
                                 </time>
                             </div>
                         </div>
-                        <button type="button" class="article-card__bookmark">
+                        <button type="button" class="article-card__bookmark" aria-label="Bookmark article">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="icon-bookmark">
@@ -217,7 +246,7 @@
                                 </time>
                             </div>
                         </div>
-                        <button type="button" class="article-card__bookmark">
+                        <button type="button" class="article-card__bookmark" aria-label="Bookmark article">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="icon-bookmark">
@@ -269,7 +298,7 @@
                                 </time>
                             </div>
                         </div>
-                        <button type="button" class="article-card__bookmark" aria-label="Save article">
+                        <button type="button" class="article-card__bookmark" aria-label="Bookmark article">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="icon-bookmark">

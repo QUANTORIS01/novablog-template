@@ -17,3 +17,14 @@ overlay.addEventListener('click', (e) => {
         overlay.classList.remove('active');
     }
 });
+
+
+const menuBtn = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+const mobileClose = document.getElementById('mobile-close');
+menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.add('active');
+});
+mobileClose.addEventListener('click', () => {
+    mobileMenu.classList.remove('active');
+});
