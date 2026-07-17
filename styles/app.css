@@ -1333,3 +1333,66 @@ kbd {
         width: 50px;
     }
 }
+
+@media (max-width: 412px) {
+    .container {
+        max-width: 390px;
+    }
+
+    .hero-content {
+        padding-top: 1px;
+    }
+
+    .hero-title {
+        line-height: 34px;
+    }
+
+    .hero-description {
+        width: 210px;
+    }
+
+    .hero-btn {
+        margin-top: 10px;
+    }
+
+    .search-modal {
+        max-width: 360px;
+    }
+
+    .icon-search-overlay {
+        height: 40px;
+    }
+
+    .search-modal__title {
+        font-size: 30px;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-submit {
+        position: static;
+        margin-top: 5px;
+    }
+
+    .article-card__author-info {
+        flex-direction: column;
+        gap: 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter__label {
+        font-size: 30px;
+    }
+
+    .newsletter__description {
+        font-size: 16px;
+        max-width: 384px;
+    }
+
+    .newsletter__input {
+        max-width: 330px;
+    }
+}
