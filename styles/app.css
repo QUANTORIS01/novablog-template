@@ -1255,6 +1255,62 @@ kbd {
     }
 }
 
+@media (max-width: 480px) {
+    
+    .container {
+        max-width: 460px;
+    }
+
+    .hero-content {
+        gap: 5px;
+    }
+
+    .hero-btn {
+        margin: 5px;
+    }
+
+    .articles-title {
+        font-size: 30px;
+    }
+
+    .about__stats {
+        margin: auto;
+        text-align: center;
+    }
+
+    .about__button {
+        margin: auto;
+    }
+
+    .footer .container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__brand {
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer__socials {
+        margin: auto;
+    }
+
+    .footer__navigation {
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer__categories {
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+    
+}
+
 @media (max-width: 412px) {
 
     .hero-content {
