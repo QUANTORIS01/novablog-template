@@ -1128,6 +1128,68 @@ kbd {
     color: #f5f5f5;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        background-position: 70% center;
+    }
+
+    .container {
+        max-width: 730px;
+    }
+
+    .hero-content {
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        margin-top: 2px;
+        max-width: 320px;
+        line-height: 48px;
+    }
+
+    .hero-description {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: -10px;
+    }
+
+    .hero-btn {
+        width: 200px;
+        margin-top: 136px;
+    }
+
+    .icon-arrow-right {
+        width: 36px;
+        height: 36px;
+    }
+
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .newsletter .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .newsletter__input {
+        width: 500px;
+    }
+
+    .about .container {
+        flex-direction: column-reverse;
+    }
+
+    .footer .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding-inline: 30px;
+    }
+}
+
 @media (max-width: 412px) {
 
     .hero {
