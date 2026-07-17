@@ -1208,6 +1208,13 @@ kbd {
     }
 }
 
+@media (max-width: 592px) {
+
+    .articles-title {
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 412px) {
 
     .hero-content {
