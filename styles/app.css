@@ -1215,6 +1215,21 @@ kbd {
     }
 }
 
+@media (max-width: 536px) {
+
+    .container {
+        max-width: 500px;
+    }
+
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter__content {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 412px) {
 
     .hero-content {
