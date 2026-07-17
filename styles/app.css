@@ -1133,10 +1133,6 @@ kbd {
         background-position: 70% center;
     }
 
-    .container {
-        max-width: 730px;
-    }
-
     .hero-content {
         padding: 30px 0;
         gap: 20px;
@@ -1161,8 +1157,8 @@ kbd {
     }
 
     .icon-arrow-right {
-        width: 36px;
-        height: 36px;
+        max-width: 36px;
+        max-height: 36px;
     }
 
     .articles-grid {
@@ -1217,10 +1213,6 @@ kbd {
 
 @media (max-width: 536px) {
 
-    .container {
-        max-width: 500px;
-    }
-
     .articles-grid {
         grid-template-columns: 1fr;
     }
@@ -1232,12 +1224,8 @@ kbd {
 
 @media (max-width: 500px) {
 
-    .container {
-        width: 480px;
-    }
-    
     .newsletter__input {
-        width: 400px;
+        max-width: 400px;
     }
     
     .newsletter__button {
@@ -1256,10 +1244,6 @@ kbd {
 }
 
 @media (max-width: 480px) {
-    
-    .container {
-        max-width: 460px;
-    }
 
     .hero-content {
         gap: 5px;
@@ -1311,33 +1295,20 @@ kbd {
     
 }
 
-@media (max-width: 460px) {
-    .container {
-        max-width: 430px;
-    }
-}
-
 @media (max-width: 430px) {
-    .container {
-        max-width: 400px;
-    }
 
     .hero-title {
         font-size: 30px;
-        width: 260px;
+        max-width: 260px;
     }
 
     .newsletter__content {
         margin: auto;
         text-align: center;
-        width: 50px;
     }
 }
 
 @media (max-width: 412px) {
-    .container {
-        max-width: 390px;
-    }
 
     .hero-content {
         padding-top: 1px;
@@ -1348,7 +1319,7 @@ kbd {
     }
 
     .hero-description {
-        width: 210px;
+        max-width: 210px;
     }
 
     .hero-btn {
@@ -1381,6 +1352,10 @@ kbd {
         gap: 1px;
         justify-content: center;
         align-items: center;
+    }
+
+    .newsletter__content {
+        max-width: 300px;
     }
 
     .newsletter__label {
