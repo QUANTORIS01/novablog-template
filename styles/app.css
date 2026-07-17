@@ -1230,6 +1230,31 @@ kbd {
     }
 }
 
+@media (max-width: 500px) {
+
+    .container {
+        width: 480px;
+    }
+    
+    .newsletter__input {
+        width: 400px;
+    }
+    
+    .newsletter__button {
+        position: static;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .about .container {
+        padding: 40px;
+    }
+
+    .about__title {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 412px) {
 
     .hero-content {
